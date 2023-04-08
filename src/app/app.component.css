@@ -1,0 +1,30 @@
+.form{
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    margin-top: 1rem;
+    margin-bottom:1rem;
+}
+
+.container{
+    width: 15rem;
+}
+
+.info{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(0,0,0)
+}
+
+a:visited{
+    color:rgb(0,0,0)
+}

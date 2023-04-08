@@ -1,0 +1,11 @@
+
+<div class = "form">
+    <h2>Pendulum Waves</h2>
+    <label class="formItem">Number of Pendulums</label>
+    <input class="formItem input" id="name" [ngModel]="numberOfPendulums"  (ngModelChange)="valueChange($event)" placeholder="Number Of Pendulums"/>
+</div>
+<div [ngStyle]="{'height':'25rem' }" class="container">    
+    <app-pendulum *ngFor="let pendulum of pendulums" [pendulum]='pendulum'></app-pendulum>
+</div>
+<p class="info">Made with <a href="https://angular.io/" target="_blank">Angular</a> by 
+    <a href="https://taavet-x.vercel.app" target="_blank">@Taavet-X</a></p>

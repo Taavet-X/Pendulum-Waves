@@ -1,0 +1,22 @@
+.pendulum{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;     
+    transform-origin: top center;     
+}
+
+.string{
+    border: none;
+    background-color: rgba(0,0,0,0.5);
+    width: 1px;
+    height: 100%;
+}
+
+.mass{
+    position: absolute;
+    bottom: 0rem;
+    border-radius: 100%;    
+    background: radial-gradient(rgb(50,50,255), rgb(150,150,255));      
+}
